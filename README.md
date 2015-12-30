@@ -1,24 +1,26 @@
 # Andreas Arledal dotfiles
 ZSH, Prezto, Tmux, Vim, SCM Breeze and more... Managed by [rcm](https://github.com/thoughtbot/rcm) from [thoughtbot](https://thoughtbot.com/).
 
-## Requirements
-
 ## Install
 1. Set zsh as your login shell:
 
         `chsh -s $(which zsh)`
 
-2. Clone this repo onto your computer machine thingy:
+1. Clone this repo onto your computer machine thingy:
 
         `git clone git://github.com/andreasarledal/dotfiles.git`
 
-3. Install [rcm](https://github.com/thoughtbot/rcm):
+1. Make sure submodules (prezto and scm_breeze are handled as dependencies through git submodules)
+
+        `git pull && git submodule update --init --recursive`
+
+1. Install [rcm](https://github.com/thoughtbot/rcm):
 
         `brew tap thoughtbot/formulae`
 
         ´brew install rcm`
 
-4. Install the dotfiles:
+1. Install the dotfiles:
 
         `env RCRC=$HOME/dotfiles/rcrc rcup`
 
