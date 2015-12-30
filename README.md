@@ -44,3 +44,13 @@ You can safely run `rcup` multiple times to update:
 
 You should run `rcup` after pulling a new version of the repository to symlink
 any new files in the repository.
+
+## Brew packages
+There's no hard dependencies for any brew packages but configs for some are included. Therefore 
+there is an installation script `brew.sh` that can be run to install packages, it also installs 
+rcm.
+
+The following packages is somehow related to the dotfiles:
+- rcm
+- tmux
+- fasd
