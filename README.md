@@ -4,25 +4,24 @@ ZSH, Prezto, Tmux, Vim, SCM Breeze and more... Managed by [rcm](https://github.c
 ## Install
 1. Set zsh as your login shell:
 
-        `chsh -s $(which zsh)`
+        chsh -s $(which zsh)
 
 1. Clone this repo onto your computer machine thingy:
 
-        `git clone git://github.com/andreasarledal/dotfiles.git`
+        git clone git://github.com/andreasarledal/dotfiles.git
 
 1. Make sure submodules (prezto and scm_breeze are handled as dependencies through git submodules)
 
-        `git pull && git submodule update --init --recursive`
+        git pull && git submodule update --init --recursive
 
 1. Install [rcm](https://github.com/thoughtbot/rcm):
 
-        `brew tap thoughtbot/formulae`
-
-        ´brew install rcm`
+        brew tap thoughtbot/formulae
+        brew install rcm
 
 1. Install the dotfiles:
 
-        `env RCRC=$HOME/dotfiles/rcrc rcup`
+        env RCRC=$HOME/dotfiles/rcrc rcup
 
 After the initial installation, you can run `rcup` without the one-time variable
 `RCRC` being set (`rcup` will symlink the repo's `rcrc` to `~/.rcrc` for future
