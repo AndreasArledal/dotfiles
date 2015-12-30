@@ -16,6 +16,9 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 # Set the Zsh functions to load (man zshcontrib).
 zstyle ':prezto:load' zfunction 'zargs' 'zmv'
 
+# Use rbenv for ruby.
+zstyle ':prezto:module:ruby:rbenv' auto-switch 'yes'
+
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
