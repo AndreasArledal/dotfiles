@@ -5,16 +5,21 @@ ZSH, Prezto, Tmux, Vim, SCM Breeze and more... Managed by [rcm](https://github.c
 
 ## Install
 1. Set zsh as your login shell:
+
         `chsh -s $(which zsh)`
 
 2. Clone this repo onto your computer machine thingy:
+
         `git clone git://github.com/andreasarledal/dotfiles.git`
 
 3. Install [rcm](https://github.com/thoughtbot/rcm):
+
         `brew tap thoughtbot/formulae`
+
         ´brew install rcm`
 
 4. Install the dotfiles:
+
         `env RCRC=$HOME/dotfiles/rcrc rcup`
 
 After the initial installation, you can run `rcup` without the one-time variable
