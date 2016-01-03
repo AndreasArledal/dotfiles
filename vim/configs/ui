@@ -1,0 +1,31 @@
+" ============================ UI ============================
+syntax on " Turn on syntax highlighting
+
+set relativenumber
+set numberwidth=5
+if v:version > 703
+  set number
+endif
+
+set showcmd " Display incomplete commands
+set showmode " Show current mode
+
+colorscheme solarized
+filetype plugin indent on
+
+set list listchars=tab:»·,trail:· " Display tabs and trailing spaces
+
+set textwidth=120
+set background=dark
+set t_Co=256
+highlight ColorColumn ctermbg=234 guibg=#0d3943
+let &colorcolumn="80,".join(range(120,999),",")
+
+
+" Use cursorline in insert mode
+augroup ui
+  autocmd!
+  autocmd InsertEnter,InsertLeave * set cul!
+augroup END
+
+" vim:ft=vim

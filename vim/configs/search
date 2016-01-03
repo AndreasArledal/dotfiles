@@ -1,0 +1,8 @@
+" ========================== Search ==========================
+set incsearch       " Find the next match as we type
+set hlsearch        " Highlight searches
+set ignorecase      " Ignore case when searching...
+set smartcase       " ...unless we type a capital
+nmap <F4> :silent noh<CR>
+
+" vim:ft=vim

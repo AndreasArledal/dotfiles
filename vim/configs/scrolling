@@ -1,0 +1,6 @@
+" ======================== Scrolling =========================
+set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15    "Get more context
+set sidescroll=1        "Scroll one column at the time
+
+" vim:ft=vim
