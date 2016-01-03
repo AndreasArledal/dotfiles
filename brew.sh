@@ -11,6 +11,7 @@ brew tap thoughtbot/formulae
 brew install rcm
 
 brew install fasd
+brew install the_silver_searcher
 brew install tmux
 
 # After party cleanup...
