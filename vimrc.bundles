@@ -8,6 +8,7 @@ Plug 'rking/ag.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'easymotion/vim-easymotion'
 Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
