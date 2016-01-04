@@ -16,6 +16,7 @@ Plug 'mtscout6/vim-cjsx'
 Plug 'kchmck/vim-coffee-script'
 Plug 'altercation/vim-colors-solarized'
 Plug 'easymotion/vim-easymotion'
+Plug 'pbrisbin/vim-mkdir'
 Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
