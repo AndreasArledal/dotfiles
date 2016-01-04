@@ -4,10 +4,11 @@ end
 
 call plug#begin('~/.vim/bundle')
 
+Plug 'rking/ag.vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mattn/emmet-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'rking/ag.vim'
 
 call plug#end()
 

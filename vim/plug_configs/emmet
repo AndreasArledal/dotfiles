@@ -1,0 +1,3 @@
+let g:user_emmet_expandabbr_key = '<c-e>'
+
+" vim:ft=vim
