@@ -1,0 +1,8 @@
+nmap < [
+nmap > ]
+omap < [
+omap > ]
+xmap < [
+xmap > ]
+
+" vim:ft=vim

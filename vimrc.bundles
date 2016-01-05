@@ -18,6 +18,7 @@ Plug 'pbrisbin/vim-mkdir'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-unimpaired'
 
 call plug#end()
 
