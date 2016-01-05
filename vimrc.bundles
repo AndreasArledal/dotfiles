@@ -5,6 +5,7 @@ endif
 call plug#begin('~/.vim/bundle')
 
 Plug 'rking/ag.vim'
+Plug 'tpope/vim-eunuch'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'mtscout6/vim-cjsx'
