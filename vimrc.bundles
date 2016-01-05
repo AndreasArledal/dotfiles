@@ -6,6 +6,7 @@ call plug#begin('~/.vim/bundle')
 
 Plug 'rking/ag.vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'vim-scripts/tComment'
 Plug 'SirVer/ultisnips'
