@@ -1,13 +1,8 @@
 if &compatible
   set nocompatible
-end
+endif
 
 call plug#begin('~/.vim/bundle')
-
-function! SortReposByName()
-  normal! sort /.*\//<cr>
-endfunction
-noremap <Leader>sl :call SortReposByName()<cr>
 
 Plug 'rking/ag.vim'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -16,6 +11,7 @@ Plug 'mtscout6/vim-cjsx'
 Plug 'kchmck/vim-coffee-script'
 Plug 'altercation/vim-colors-solarized'
 Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-endwise'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'christoomey/vim-tmux-navigator'
 
