@@ -1,0 +1,3 @@
+set diffopt+=vertical
+
+" vim:ft=vim
