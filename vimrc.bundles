@@ -5,7 +5,6 @@ endif
 call plug#begin('~/.vim/bundle')
 
 Plug 'rking/ag.vim'
-Plug 'tpope/vim-eunuch'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'mtscout6/vim-cjsx'
@@ -13,7 +12,11 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'altercation/vim-colors-solarized'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
 Plug 'pbrisbin/vim-mkdir'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
