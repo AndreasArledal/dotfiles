@@ -18,6 +18,7 @@ fi
 # Paths
 path=(
   $HOME/.bin
+  .git/safe/../../bin
   $path
 )
 
