@@ -19,6 +19,7 @@ fi
 path=(
   $HOME/.bin
   .git/safe/../../bin
+  $HOME/code/mndx-dev/bin
   $path
 )
 
