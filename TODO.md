@@ -8,6 +8,7 @@
 - Stuff for work, how to handle? Local?
 - Test it somewhere else
 - Fix better prompt. (Could it be changed depending on window size?)
+- Ruby version in vim
 
 ### Not really for the dotfiles, self reminder...
 - Clean up brew
