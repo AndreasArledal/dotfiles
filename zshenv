@@ -1,3 +1,6 @@
+# Aliases
+alias han="git"
+
 # Defines environment variables
 
 # Browser
@@ -20,6 +23,7 @@ path=(
   $HOME/.bin
   .git/safe/../../bin
   $HOME/code/mndx-dev/bin
+  $HOME/.rbenv/shims
   $path
 )
 

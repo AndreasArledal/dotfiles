@@ -36,7 +36,13 @@
   jocke = Joakim Olander <joakim.olander@mynewsdesk.com>
   woll = Alexander Woll <alexander.woll@mynewsdesk.com>
   joel = Joel Helin <joel.helin@mynewsdesk.com>
+  zoee = Zoee Silcock <zoee.silcock@mynewsdesk.com>
+  carlos = Carlos Mateos <carlos.mateos@mynewsdesk.com>
+  rashmi = Rashmi Yadav <rashmi.yadav@mynewsdesk.com>
 
 [user]
 	email = andreas.arledal@me.com
 	name = Andreas Arledal
+[github]
+	user = AndreasArledal
+	token = e280c35ec698491b6a4df1df4b5e4b399a49ed71

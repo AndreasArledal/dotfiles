@@ -1,6 +1,7 @@
 " ============================ UI ============================
 syntax on " Turn on syntax highlighting
 
+set laststatus=2
 set relativenumber
 set numberwidth=5
 if v:version > 703
@@ -21,6 +22,8 @@ set t_Co=256
 highlight ColorColumn ctermbg=234 guibg=#0d3943
 let &colorcolumn="80,".join(range(120,999),",")
 
+" Display line numbers in netrw (vinegar)
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 " Use cursorline in insert mode
 augroup ui

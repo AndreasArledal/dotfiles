@@ -9,6 +9,7 @@
 - Test it somewhere else
 - Fix better prompt. (Could it be changed depending on window size?)
 - Ruby version in vim
+- Fix git autocomplete (origin)
 
 ### Not really for the dotfiles, self reminder...
 - Clean up brew
