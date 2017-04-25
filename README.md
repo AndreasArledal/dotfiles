@@ -10,14 +10,20 @@ ZSH, Prezto, Tmux, Vim, SCM Breeze and more... Managed by [rcm](https://github.c
 
         git clone git://github.com/andreasarledal/dotfiles.git
 
-1. Make sure submodules (prezto and scm_breeze are handled as dependencies through git submodules)
+1. Make sure submodules (prezto and scm_breeze are handled as dependencies through git submodules) are up to date
 
         git pull && git submodule update --init --recursive
 
 1. Install [rcm](https://github.com/thoughtbot/rcm):
 
+        OSX:
         brew tap thoughtbot/formulae
         brew install rcm
+        
+        Ubuntu:
+        sudo add-apt-repository ppa:martin-frost/thoughtbot-rcm
+        sudo apt-get update
+        sudo apt-get install rcm
 
 1. Install the dotfiles:
 
