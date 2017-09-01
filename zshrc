@@ -8,3 +8,5 @@ fi
 export NVM_DIR="/Users/andreasarledal/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="/usr/local/sbin:$PATH"
+
+[ -s "/home/andarl/.scm_breeze/scm_breeze.sh" ] && source "/home/andarl/.scm_breeze/scm_breeze.sh"

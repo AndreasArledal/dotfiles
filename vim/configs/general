@@ -1,7 +1,7 @@
-" ====================== General Config ======================
-set backspace=indent,eol,start  " Normal backspace behavior
-set history=500                 " Store some history
-set secure                      " Limit what modelines and autocmd can do
-set clipboard=unnamed           " Use system clipboard for every yank
+" ====================== General Config ====================================
+set backspace=indent,eol,start     " Normal backspace behavior
+set history=500                    " Store some history
+set secure                         " Limit what modelines and autocmd can do
+set clipboard^=unnamed,unnamedplus " Use system clipboard for every yank
 
 " vim:ft=vim

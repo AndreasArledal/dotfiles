@@ -22,6 +22,9 @@ zstyle ':prezto:module:ruby:rbenv' auto-switch 'yes'
 # Use nvm for node.
 zstyle ':prezto:module:node:info:version' format 'version:%v'
 
+# Don't use preztos git aliases
+zstyle ':prezto:module:git:alias' skip 'yes'
+
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
