@@ -1,6 +1,7 @@
 " ========================== Setup ===========================
 " Make sure Vim settings is used (Needs to be first)
 set nocompatible
+set modeline
 
 " Set the leader to be comma, I find it easy to reach and it's not
 " as disturbing as space.
