@@ -1,5 +1,7 @@
 # Aliases
 alias han="git"
+alias f="fvm flutter"
+alias d="fvm dart"
 
 # Defines environment variables
 
@@ -24,6 +26,7 @@ path=(
   .git/safe/../../bin
   $HOME/code/mndx-dev/bin
   $HOME/.rbenv/shims
+  $HOME/Users/andreasarledal/fvm/default/bin
   $path
 )
 
